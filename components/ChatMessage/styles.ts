@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import Colors from '../../constants/Colors'
 
 const styles = StyleSheet.create({
     container: {
@@ -11,7 +12,15 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     username: {
-        fontSize: 16
+        color: Colors.light.tint,
+        marginBottom: 3
+    },
+    message: {
+    },
+    time: {
+        alignSelf: 'flex-end',
+        color: 'grey',
+        fontStyle: 'italic'
     }
 })
 
